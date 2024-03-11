@@ -87,6 +87,8 @@ int NumberString = CountBoolean(ArrayOfBoolean);                                
 String[] ArrayStringOut;                                                            // определяем выходной мпссив строк
 ArrayStringOut = new string[NumberString];
 ArrayStringOut = CopyArrayString(ArrayOfString, ArrayOfBoolean, ArrayStringOut);    // заполняем его
+Console.Clear();
+Console.WriteLine("Входной массив строк -> Выходной массив строк");
 WriteArray(ArrayOfString);                                                          // печать входного массива
 Console.Write(" -> ");
 WriteArray(ArrayStringOut);                                                         // печать выходного массива
